@@ -1,0 +1,3 @@
+#Ads.txt docs.ttmkt.com 20190524
+
+google.com, pub-8106408173466568, DIRECT

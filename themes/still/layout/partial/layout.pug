@@ -1,0 +1,16 @@
+doctype
+html(lang=config.language)
+    head
+        include head.pug
+    body
+        if !is_home()
+            .wrap
+                header
+                    a(href="./")
+                        h1.title=theme.title
+                    include nav.pug
+                main.container
+                    block container
+                footer
+                    block pagination
+                    block copyright
